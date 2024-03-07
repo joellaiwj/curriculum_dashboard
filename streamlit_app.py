@@ -155,8 +155,7 @@ with col3:
                        colorscale="Viridis",  # Color scale can be adjusted as needed
                        showscale=True,
                        zmin=0,
-                       zmax=N,
-                       text_auto=True))
+                       zmax=N))
     
     # Update layout
     fig.update_layout(title="Showing data for "+industry_title+" and "+yos_title)
