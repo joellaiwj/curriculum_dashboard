@@ -3,7 +3,7 @@ import plotly.express as px
 import matplotlib.pyplot as plt
 import streamlit as st
 import pandas as pd
-import os
+#import os
 from wordcloud import WordCloud
 import plotly.graph_objects as go
 
@@ -11,7 +11,7 @@ st.set_page_config(page_title="Curriculum Planning Dashboard",page_icon=":books:
 
 st.title(":books: NTU Curriculum Planning Dashboard")
 
-filename = os.chdir(r"C:\Users\joellai\Desktop\Curriculum Planning Dashboard")
+f#ilename = os.chdir(r"C:\Users\joellai\Desktop\Curriculum Planning Dashboard")
 files = "students_courses.xlsx"
 df_student = pd.read_excel(files,sheet_name="student-course")
 df_course = pd.read_excel(files,sheet_name="course-skill")
