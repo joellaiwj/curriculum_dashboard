@@ -155,7 +155,8 @@ with col3:
                        colorscale="Viridis",  # Color scale can be adjusted as needed
                        showscale=True,
                        zmin=0,
-                       zmax=N))
+                       zmax=N, 
+                       colorbar={"title": "# Students"}))
     
     # Update layout
     fig.update_layout(title="Showing data for "+industry_title+" and "+yos_title)
@@ -210,7 +211,8 @@ with col4:
                        colorscale="Viridis",  # Color scale can be adjusted as needed
                        showscale=True,
                        zmin=0,
-                       zmax=N))  # Hide the color scale
+                       zmax=N,
+                       colorbar={"title": "# Students"}))  # Hide the color scale
     
     # Update layout
     fig.update_layout(title="Showing data for "+industry_title+" and "+yos_title)
